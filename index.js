@@ -11,9 +11,11 @@ who's behind the remaining boxes.
 ________________________________________________________________*/
 
 // Your code here
+let boxTwo = document.querySelector('#box-two')
+let boxNine = document.querySelector('#box-nine')
 
-
-
+boxTwo.style.opacity = "1"
+boxNine.style.opacity = "1"
 
 
 /*________________________________________________________________
@@ -25,6 +27,10 @@ string containing whatever text you want.
 ________________________________________________________________*/
 
 // Your code here 
+
+ let hiddenMessage = document.querySelector("#hidden-message");
+ hiddenMessage.innerHTML = "I'm hungry"
+
 
 
 
